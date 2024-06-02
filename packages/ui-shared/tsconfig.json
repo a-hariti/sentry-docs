@@ -1,0 +1,27 @@
+{
+  "extends": "@sentry-docs/typescript-config/base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["src/*"],
+      "ui": ["src/ui/*"],
+      "mdx": ["src/mdx/*"],
+    },
+  },
+  "include": [
+    ".",
+    "src",
+    "next-env.d.ts",
+    "next.config.js",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "dist",
+    "build",
+    "node_modules"
+  ]
+}

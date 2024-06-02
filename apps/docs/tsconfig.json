@@ -7,8 +7,8 @@
         "src/*"
       ]
     },
-    "strictNullChecks": false
-
+    "strictNullChecks": false,
+    "allowSyntheticDefaultImports": true
   },
 
   "include": [

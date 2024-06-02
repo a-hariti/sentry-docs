@@ -23,7 +23,7 @@ const ORG_AUTH_TOKEN_REGEX = /___ORG_AUTH_TOKEN___/g;
 
 type ChildrenItem = ReturnType<typeof Children.toArray>[number] | React.ReactNode;
 
-export function makeKeywordsClickable(children: React.ReactNode) {
+export function makeKeywordsClickable(children: React.ReactNode): React.ReactNode {
   const items = Children.toArray(children);
 
   return items.reduce((arr: ChildrenItem[], child) => {

@@ -236,13 +236,13 @@ function ProductSidebar({rootNode, items}: ProductSidebarProps) {
   return (
     <div>
       <ul data-sidebar-tree>
-        {items.map(item => {
+        {items.map((item, index) => {
           const tree = itemTree(item.root);
 
           return (
             tree && (
               <DynamicNav
-                key={item.root}
+                key={index}
                 root={item.root}
                 title={item.title}
                 tree={tree}

@@ -75,7 +75,7 @@ const SANDBOX_PLATFORM_MAP: {[key: string]: string} = {
   node: 'react',
 };
 
-export function SandboxLink({children, target, ...params}: Props) {
+export function SandboxLink({children, target, ...params}: Props): React.ReactNode {
   if (isSandboxHidden()) {
     return children;
   }

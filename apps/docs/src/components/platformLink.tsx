@@ -8,7 +8,7 @@ type Props = {
   to?: string;
 };
 
-export function PlatformLink({children, to}: Props) {
+export function PlatformLink({children, to}: Props): React.ReactNode | null {
   if (!to) {
     return children;
   }
