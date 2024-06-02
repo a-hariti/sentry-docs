@@ -11,7 +11,6 @@ import DOMPurify from 'dompurify';
 import Link from 'next/link';
 import {useRouter} from 'next/navigation';
 import algoliaInsights from 'search-insights';
-
 import {useOnClickOutside} from 'src/clientUtils';
 import {useKeyboardNavigate} from 'src/hooks/useKeyboardNavigate';
 

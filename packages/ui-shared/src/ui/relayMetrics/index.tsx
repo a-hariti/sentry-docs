@@ -1,6 +1,5 @@
 import {Fragment} from 'react';
 import {micromark} from 'micromark';
-
 import metrics from 'src/data/relay_metrics.json';
 
 import styles from './styles.module.scss';
@@ -34,7 +33,7 @@ function RelayFeatures({features}: {features: any}) {
   return null;
 }
 
-function Metric({metric}:{metric: any}) {
+function Metric({metric}: {metric: any}) {
   return (
     <Fragment>
       <dt>

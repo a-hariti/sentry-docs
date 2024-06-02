@@ -1,5 +1,4 @@
 import {ReactNode} from 'react';
-
 import {getCurrentGuide, getCurrentPlatform, nodeForPath} from 'src/docTree';
 import {serverContext} from 'src/serverContext';
 import {FrontMatter} from 'src/types';

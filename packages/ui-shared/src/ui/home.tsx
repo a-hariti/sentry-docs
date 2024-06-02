@@ -1,17 +1,16 @@
 import Image from 'next/image';
 import Link from 'next/link';
-
-import {Banner} from './banner';
-import {SentryWordmarkLogo} from './wordmarkLogo';
 import {extractPlatforms, getDocsRootNode} from 'src/docTree';
 import ChatBubble from 'src/imgs/chat-bubble.png';
 import HeroImage from 'src/imgs/home_illustration.png';
 import RocketImage from 'src/imgs/rocket.png';
 import SupportImage from 'src/imgs/support.png';
 
+import {Banner} from './banner';
 import {Header} from './header';
 import {NavLink, NavLinkProps} from './navlink';
 import {PlatformFilter} from './platformFilter';
+import {SentryWordmarkLogo} from './wordmarkLogo';
 
 export async function Home() {
   const rootNode = await getDocsRootNode();

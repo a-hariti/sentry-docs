@@ -2,7 +2,7 @@ import fields from 'src/data/relay_event_pii.json';
 
 import styles from './style.module.scss';
 
-function PiiField({field}:{field: any}) {
+function PiiField({field}: {field: any}) {
   const asterisk_flag = field.additional_properties;
 
   return (

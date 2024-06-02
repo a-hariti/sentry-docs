@@ -1,7 +1,6 @@
 import 'server-only';
 
 import {cache} from 'react';
-
 import {DocNode} from 'src/docTree';
 
 interface ServerContext {

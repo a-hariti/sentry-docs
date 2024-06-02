@@ -1,6 +1,5 @@
 import {Fragment, SVGAttributes} from 'react';
 import Link from 'next/link';
-
 import {
   DocNode,
   extractPlatforms,

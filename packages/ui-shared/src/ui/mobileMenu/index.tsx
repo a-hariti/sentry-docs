@@ -4,8 +4,9 @@ import {TriangleRightIcon} from '@radix-ui/react-icons';
 import {Box, Button, Theme} from '@radix-ui/themes';
 import Link from 'next/link';
 
-import {Search} from '../search'
 import styles from './styles.module.scss';
+
+import {Search} from '../search';
 
 type Props = {
   pathname: string;

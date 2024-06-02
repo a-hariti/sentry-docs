@@ -5,7 +5,7 @@ import {CodeBlock} from './ui/codeBlock';
 import {CodeTabs} from './ui/codeTabs';
 import {ConfigKey} from './ui/configKey';
 import {DefinitionList} from './ui/definitionList';
-import { default as DocImage } from './ui/docImage';
+import DocImage from './ui/docImage';
 import {Expandable} from './ui/expandable';
 import {GuideGrid} from './ui/guideGrid';
 import {JsBundleList} from './ui/jsBundleList';
@@ -29,28 +29,28 @@ import {SandboxLink} from './ui/sandboxLink';
 import {SignInNote} from './ui/signInNote';
 import {SmartLink} from './ui/smartLink';
 import {VimeoEmbed} from './ui/video';
+
 export {
   getCurrentPlatformOrGuide,
   getDocsRootNode,
   nodeForPath,
-  extractPlatforms
+  extractPlatforms,
 } from './docTree';
 export {getDocsFrontMatter, getFileBySlug} from './mdx';
-export { setServerContext } from './serverContext';
-export { capitilize } from './utils';
-export { apiCategories} from './build/resolveOpenAPI'
-export { ApiCategoryPage} from './ui/apiCategoryPage'
-export { Home} from './ui/home'
-export { Include } from './ui/include'
-export { ApiPage } from './ui/apiPage'
-export { DocPage } from './ui/docPage'
-export { PlatformContent } from './ui/platformContent'
-export { Search } from './ui/search'
-export { PlatformFilter } from './ui/platformFilter'
-export { NavLink, type NavLinkProps } from './ui/navlink'
-export { Banner } from './ui/banner'
-export { SentryWordmarkLogo } from './ui/wordmarkLogo'
-
+export {setServerContext} from './serverContext';
+export {capitilize} from './utils';
+export {apiCategories} from './build/resolveOpenAPI';
+export {ApiCategoryPage} from './ui/apiCategoryPage';
+export {Home} from './ui/home';
+export {Include} from './ui/include';
+export {ApiPage} from './ui/apiPage';
+export {DocPage} from './ui/docPage';
+export {PlatformContent} from './ui/platformContent';
+export {Search} from './ui/search';
+export {PlatformFilter} from './ui/platformFilter';
+export {NavLink, type NavLinkProps} from './ui/navlink';
+export {Banner} from './ui/banner';
+export {SentryWordmarkLogo} from './ui/wordmarkLogo';
 
 export function mdxComponents(
   dynamicComponents: any = {},

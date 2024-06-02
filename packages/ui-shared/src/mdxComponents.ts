@@ -1,38 +1,38 @@
-import {Alert, Note} from './components/alert';
-import {Break} from './components/break';
-import {CliChecksumTable} from './components/cliChecksumTable';
-import {CodeBlock} from './components/codeBlock';
-import {CodeTabs} from './components/codeTabs';
-import {ConfigKey} from './components/configKey';
-import {DefinitionList} from './components/definitionList';
-import DocImage from './components/docImage';
-import {Expandable} from './components/expandable';
-import {GuideGrid} from './components/guideGrid';
-import {JsBundleList} from './components/jsBundleList';
-import {LambdaLayerDetail} from './components/lambdaLayerDetail';
-import {LinkWithPlatformIcon} from './components/linkWithPlatformIcon';
-import {OnboardingOption, OnboardingOptionButtons} from './components/onboarding';
-import {OrgAuthTokenNote} from './components/orgAuthTokenNote';
-import {PageGrid} from './components/pageGrid';
-import {ParamTable} from './components/paramTable';
-import {PiiFields} from './components/piiFields';
-import {PlatformCategorySection} from './components/platformCategorySection';
-import {PlatformGrid} from './components/platformGrid';
-import {PlatformIdentifier} from './components/platformIdentifier';
-import {PlatformLink} from './components/platformLink';
-import {PlatformLinkWithLogo} from './components/platformLinkWithLogo';
-import {PlatformOrGuideName} from './components/platformOrGuideName';
-import {PlatformSdkPackageName} from './components/platformSdkPackageName';
-import {PlatformSection} from './components/platformSection';
-import {RelayMetrics} from './components/relayMetrics';
-import {SandboxLink} from './components/sandboxLink';
-import {SignInNote} from './components/signInNote';
-import {SmartLink} from './components/smartLink';
-import {VimeoEmbed} from './components/video';
+import {Alert, Note} from './ui/alert';
+import {Break} from './ui/break';
+import {CliChecksumTable} from './ui/cliChecksumTable';
+import {CodeBlock} from './ui/codeBlock';
+import {CodeTabs} from './ui/codeTabs';
+import {ConfigKey} from './ui/configKey';
+import {DefinitionList} from './ui/definitionList';
+import DocImage from './ui/docImage';
+import {Expandable} from './ui/expandable';
+import {GuideGrid} from './ui/guideGrid';
+import {JsBundleList} from './ui/jsBundleList';
+import {LambdaLayerDetail} from './ui/lambdaLayerDetail';
+import {LinkWithPlatformIcon} from './ui/linkWithPlatformIcon';
+import {OnboardingOption, OnboardingOptionButtons} from './ui/onboarding';
+import {OrgAuthTokenNote} from './ui/orgAuthTokenNote';
+import {PageGrid} from './ui/pageGrid';
+import {ParamTable} from './ui/paramTable';
+import {PiiFields} from './ui/piiFields';
+import {PlatformCategorySection} from './ui/platformCategorySection';
+import {PlatformGrid} from './ui/platformGrid';
+import {PlatformIdentifier} from './ui/platformIdentifier';
+import {PlatformLink} from './ui/platformLink';
+import {PlatformLinkWithLogo} from './ui/platformLinkWithLogo';
+import {PlatformOrGuideName} from './ui/platformOrGuideName';
+import {PlatformSdkPackageName} from './ui/platformSdkPackageName';
+import {PlatformSection} from './ui/platformSection';
+import {RelayMetrics} from './ui/relayMetrics';
+import {SandboxLink} from './ui/sandboxLink';
+import {SignInNote} from './ui/signInNote';
+import {SmartLink} from './ui/smartLink';
+import {VimeoEmbed} from './ui/video';
 
 export function mdxComponents(
   dynamicComponents: any = {},
-  wrapper: any = ({children}) => children
+  wrapper: any = ({children}: any) => children
 ) {
   return {
     Alert,

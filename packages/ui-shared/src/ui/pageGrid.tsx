@@ -1,5 +1,4 @@
 import Link from 'next/link';
-
 import {nodeForPath} from 'src/docTree';
 import {serverContext} from 'src/serverContext';
 

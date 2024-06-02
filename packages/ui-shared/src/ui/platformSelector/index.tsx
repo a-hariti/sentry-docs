@@ -13,13 +13,12 @@ import {CaretRightIcon, CaretSortIcon, MagnifyingGlassIcon} from '@radix-ui/reac
 import * as RadixSelect from '@radix-ui/react-select';
 import {matchSorter} from 'match-sorter';
 import {usePathname} from 'next/navigation';
-
-import {PlatformIcon} from '../platformIcon';
 import {Platform, PlatformGuide, PlatformIntegration} from 'src/types';
 import {uniqByReference} from 'src/utils';
 
 import styles from './style.module.scss';
 
+import {PlatformIcon} from '../platformIcon';
 import {SidebarLink} from '../sidebarLink';
 
 export function PlatformSelector({

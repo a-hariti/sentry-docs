@@ -12,7 +12,6 @@ import {ArrowDown} from 'react-feather';
 import {usePopper} from 'react-popper';
 import styled from '@emotion/styled';
 import {AnimatePresence, motion, MotionProps} from 'framer-motion';
-
 import {useOnClickOutside} from 'src/clientUtils';
 
 import {CodeContext, createOrgAuthToken} from './codeContext';

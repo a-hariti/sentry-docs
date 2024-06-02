@@ -101,7 +101,7 @@ export function CodeTabs({children}: CodeTabProps) {
 
   // Prioritize sharedSelectionChoice over the local selection
   const finalSelection =
-    sharedSelectionChoice ?? localSelectionChoice ?? possibleChoices[0] as string;
+    sharedSelectionChoice ?? localSelectionChoice ?? (possibleChoices[0] as string);
 
   // Save the selected tab for Tabgroup to localStorage whenever it changes
   useEffect(() => {

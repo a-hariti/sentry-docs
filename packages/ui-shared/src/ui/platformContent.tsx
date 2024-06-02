@@ -1,6 +1,5 @@
 import {useMemo} from 'react';
 import {getMDXComponent} from 'mdx-bundler/client';
-
 import {getCurrentGuide, getDocsRootNode, getPlatform} from 'src/docTree';
 import {getFileBySlug} from 'src/mdx';
 import {mdxComponents} from 'src/mdxComponents';

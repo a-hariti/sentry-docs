@@ -1,5 +1,4 @@
 import {Fragment} from 'react';
-
 import {getCurrentPlatform, getPlatform} from 'src/docTree';
 import {serverContext} from 'src/serverContext';
 
