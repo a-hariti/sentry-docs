@@ -1,14 +1,18 @@
+import {
+  Banner,
+  Header,
+  NavLink,
+  NavLinkProps,
+  PlatformFilter,
+  SentryWordmarkLogo,
+} from '@sentry/ui-shared';
 import Image from 'next/image';
 import Link from 'next/link';
-
-import {
-  Banner, SentryWordmarkLogo, extractPlatforms, getDocsRootNode,
-  
-} from '@sentry/ui-shared';
-import {ChatBubble, HeroImage, RocketImage, SupportImage} from '@sentry/ui-shared/imgs';
-
-import {Header} from './header';
-import {PlatformFilter, NavLink, NavLinkProps} from '@sentry/ui-shared';
+import {extractPlatforms, getDocsRootNode} from 'sdk-docs/src/docTree';
+import ChatBubble from 'src/imgs/chat-bubble.png';
+import HeroImage from 'src/imgs/home_illustration.png';
+import RocketImage from 'src/imgs/rocket.png';
+import SupportImage from 'src/imgs/support.png';
 
 export async function Home() {
   const rootNode = await getDocsRootNode();

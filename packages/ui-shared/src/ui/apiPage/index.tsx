@@ -1,10 +1,10 @@
 import {Fragment, ReactElement, useMemo} from 'react';
 import {bundleMDX} from 'mdx-bundler';
 import {getMDXComponent} from 'mdx-bundler/client';
-import {type API} from 'src/build/resolveOpenAPI';
-import {mdxComponents} from 'src/mdxComponents';
-import remarkCodeTabs from 'src/remark-code-tabs';
-import remarkCodeTitles from 'src/remark-code-title';
+import {type API} from 'sdk-docs/src/build/resolveOpenAPI';
+import {mdxComponents} from 'sdk-docs/src/mdxComponents';
+import remarkCodeTabs from 'sdk-docs/src/remark-code-tabs';
+import remarkCodeTitles from 'sdk-docs/src/remark-code-title';
 
 import './styles.scss';
 

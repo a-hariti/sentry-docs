@@ -7,7 +7,7 @@ import 'prismjs/components/prism-json';
 
 import {Fragment, useState} from 'react';
 
-import {type API} from 'src/build/resolveOpenAPI';
+import {type API} from 'sdk-docs/src/build/resolveOpenAPI';
 
 type ExampleProps = {
   api: API;

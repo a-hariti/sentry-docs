@@ -1,8 +1,8 @@
 import {ReactNode} from 'react';
-import {getCurrentGuide, getCurrentPlatform, nodeForPath} from 'src/docTree';
-import {serverContext} from 'src/serverContext';
-import {FrontMatter} from 'src/types';
-import {isTruthy} from 'src/utils';
+import {getCurrentGuide, getCurrentPlatform, nodeForPath} from 'sdk-docs/src/docTree';
+import {serverContext} from 'sdk-docs/src/serverContext';
+import {FrontMatter} from 'sdk-docs/src/types';
+import {isTruthy} from 'sdk-docs/src/utils';
 
 import './type.scss';
 

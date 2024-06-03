@@ -13,8 +13,8 @@ import {CaretRightIcon, CaretSortIcon, MagnifyingGlassIcon} from '@radix-ui/reac
 import * as RadixSelect from '@radix-ui/react-select';
 import {matchSorter} from 'match-sorter';
 import {usePathname} from 'next/navigation';
-import {Platform, PlatformGuide, PlatformIntegration} from 'src/types';
-import {uniqByReference} from 'src/utils';
+import {Platform, PlatformGuide, PlatformIntegration} from 'sdk-docs/src/types';
+import {uniqByReference} from 'sdk-docs/src/utils';
 
 import styles from './style.module.scss';
 

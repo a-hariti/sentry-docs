@@ -1,27 +1,25 @@
 {
-  "extends": "@sentry-docs/typescript-config/base.json",
+  "extends": "@sentry-docs/typescript-config/nextjs.json",
   "compilerOptions": {
-    "jsx": "react-jsx",
-    "allowJs": true,
     "baseUrl": ".",
     "paths": {
-      "src/*": ["src/*"],
-      "ui": ["src/ui/*"],
-      "mdx": ["src/mdx/*"],
+      "sentry/ui-shared/*": [
+        "src/*"
+      ]
     },
+    "strictNullChecks": false,
+    "allowSyntheticDefaultImports": true
   },
+
   "include": [
-    ".",
-    "src",
     "next-env.d.ts",
-    "next.config.js",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
+    "**/*.d.ts",
+    ".next/types/**/*.ts",
+    "tsconfig.lint.json"
   ],
   "exclude": [
-    "dist",
-    "build",
     "node_modules"
   ]
 }

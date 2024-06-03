@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import {nodeForPath} from 'src/docTree';
-import {serverContext} from 'src/serverContext';
+import {nodeForPath} from 'sdk-docs/src/docTree';
+import {serverContext} from 'sdk-docs/src/serverContext';
 
 type Props = {
   nextPages: boolean;

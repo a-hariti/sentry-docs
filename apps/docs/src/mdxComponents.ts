@@ -1,34 +1,38 @@
-import {Alert, Note} from './components/alert';
-import {Break} from './components/break';
-import {CliChecksumTable} from './components/cliChecksumTable';
-import {CodeBlock} from './components/codeBlock';
-import {CodeTabs} from './components/codeTabs';
-import {ConfigKey} from './components/configKey';
-import {DefinitionList} from './components/definitionList';
-import DocImage from './components/docImage';
-import {Expandable} from './components/expandable';
-import {GuideGrid} from './components/guideGrid';
-import {JsBundleList} from './components/jsBundleList';
-import {LambdaLayerDetail} from './components/lambdaLayerDetail';
-import {LinkWithPlatformIcon} from './components/linkWithPlatformIcon';
-import {OnboardingOption, OnboardingOptionButtons} from './components/onboarding';
-import {OrgAuthTokenNote} from './components/orgAuthTokenNote';
-import {PageGrid} from './components/pageGrid';
-import {ParamTable} from './components/paramTable';
-import {PiiFields} from './components/piiFields';
-import {PlatformCategorySection} from './components/platformCategorySection';
-import {PlatformGrid} from './components/platformGrid';
-import {PlatformIdentifier} from './components/platformIdentifier';
-import {PlatformLink} from './components/platformLink';
-import {PlatformLinkWithLogo} from './components/platformLinkWithLogo';
-import {PlatformOrGuideName} from './components/platformOrGuideName';
-import {PlatformSdkPackageName} from './components/platformSdkPackageName';
-import {PlatformSection} from './components/platformSection';
-import {RelayMetrics} from './components/relayMetrics';
-import {SandboxLink} from './components/sandboxLink';
-import {SignInNote} from './components/signInNote';
-import {SmartLink} from './components/smartLink';
-import {VimeoEmbed} from './components/video';
+import {
+  Alert,
+  Break,
+  CliChecksumTable,
+  CodeBlock,
+  CodeTabs,
+  ConfigKey,
+  DefinitionList,
+  DocImage,
+  Expandable,
+  GuideGrid,
+  JsBundleList,
+  LambdaLayerDetail,
+  LinkWithPlatformIcon,
+  Note,
+  OnboardingOption,
+  OnboardingOptionButtons,
+  OrgAuthTokenNote,
+  PageGrid,
+  ParamTable,
+  PiiFields,
+  PlatformCategorySection,
+  PlatformGrid,
+  PlatformIdentifier,
+  PlatformLink,
+  PlatformLinkWithLogo,
+  PlatformOrGuideName,
+  PlatformSdkPackageName,
+  PlatformSection,
+  RelayMetrics,
+  SandboxLink,
+  SignInNote,
+  SmartLink,
+  VimeoEmbed,
+} from '@sentry/ui-shared';
 
 export function mdxComponents(
   dynamicComponents: any = {},

@@ -1,6 +1,6 @@
-import {DocNode, getCurrentPlatformOrGuide, getPlatform} from 'src/docTree';
-import {serverContext} from 'src/serverContext';
-import {Platform, PlatformGuide} from 'src/types';
+import {DocNode, getCurrentPlatformOrGuide, getPlatform} from 'sdk-docs/src/docTree';
+import {serverContext} from 'sdk-docs/src/serverContext';
+import {Platform, PlatformGuide} from 'sdk-docs/src/types';
 
 function getPlatformsWithFallback(
   rootNode: DocNode,
@@ -57,7 +57,7 @@ export function PlatformSection({
 
   let result: boolean | null = null;
   // eslint-disable-next-line no-cond-assign
-  for (let platformKey: string, i = 0; (platformKey = platformsToSearch[i]); i++) {
+  for (let platformKey: string, i = 0; (platformKey = platformsToSearch[i]!); i++) {
     if (!platformKey) {
       continue;
     }

@@ -1,9 +1,9 @@
 import {useMemo} from 'react';
 import {getMDXComponent} from 'mdx-bundler/client';
-import {getCurrentGuide, getDocsRootNode, getPlatform} from 'src/docTree';
-import {getFileBySlug} from 'src/mdx';
-import {mdxComponents} from 'src/mdxComponents';
-import {serverContext} from 'src/serverContext';
+import {getCurrentGuide, getDocsRootNode, getPlatform} from 'sdk-docs/src/docTree';
+import {getFileBySlug} from 'sdk-docs/src/mdx';
+import {mdxComponents} from 'sdk-docs/src/mdxComponents';
+import {serverContext} from 'sdk-docs/src/serverContext';
 
 import {Include} from './include';
 

@@ -1,4 +1,4 @@
-import {DocNode} from 'src/docTree';
+import {DocNode} from 'sdk-docs/src/docTree';
 
 import styles from './style.module.scss';
 

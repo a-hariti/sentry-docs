@@ -1,5 +1,5 @@
-import {getCurrentPlatformOrGuide} from 'src/docTree';
-import {serverContext} from 'src/serverContext';
+import {getCurrentPlatformOrGuide} from 'sdk-docs/src/docTree';
+import {serverContext} from 'sdk-docs/src/serverContext';
 
 type PlatformOrGuideNameProps = {
   /**

@@ -58,7 +58,7 @@ export function useOrgAuthTokenUrl() {
   const currentSelectionIdx = sharedSelection.PROJECT ?? 0;
   const currentSelection = choices[currentSelectionIdx];
 
-  const org = currentSelection.ORG_SLUG;
+  const org = currentSelection?.ORG_SLUG;
 
   return `https://sentry.io/settings/${org}/auth-tokens/`;
 }

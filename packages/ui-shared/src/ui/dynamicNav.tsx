@@ -1,6 +1,6 @@
 import {Fragment} from 'react';
-import {serverContext} from 'src/serverContext';
-import {sortPages} from 'src/utils';
+import {serverContext} from 'sdk-docs/src/serverContext';
+import {sortPages} from 'sdk-docs/src/utils';
 
 import {SidebarLink} from './sidebarLink';
 import {SmartLink} from './smartLink';

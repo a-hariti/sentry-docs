@@ -1,6 +1,6 @@
-import getPackageRegistry from 'src/build/packageRegistry';
-import {getCurrentPlatformOrGuide, nodeForPath} from 'src/docTree';
-import {serverContext} from 'src/serverContext';
+import getPackageRegistry from 'sdk-docs/src/build/packageRegistry';
+import {getCurrentPlatformOrGuide, nodeForPath} from 'sdk-docs/src/docTree';
+import {serverContext} from 'sdk-docs/src/serverContext';
 
 import styles from './styles.module.scss';
 

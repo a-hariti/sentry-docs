@@ -3,23 +3,22 @@ import {getMDXComponent} from 'mdx-bundler/client';
 import {Metadata} from 'next';
 import {notFound} from 'next/navigation';
 
+import {apiCategories} from 'src/build/resolveOpenAPI';
+import {ApiCategoryPage} from 'src/components/apiCategoryPage';
+import {ApiPage} from 'src/components/apiPage';
+import {DocPage} from 'src/components/docPage';
+import {Home} from 'src/components/home';
+import {Include} from 'src/components/include';
+import {PlatformContent} from 'src/components/platformContent';
 import {
-  apiCategories,
-  ApiCategoryPage,
-  ApiPage,
-  DocPage,
-  Include,
-  PlatformContent,
   getCurrentPlatformOrGuide,
   getDocsRootNode,
-  nodeForPath
-} from '@sentry/ui-shared';
-
-import {Home} from 'sentry-docs/components/home';
-import {getDocsFrontMatter, getFileBySlug} from 'sentry-docs/mdx';
-import {mdxComponents} from 'sentry-docs/mdxComponents';
-import {setServerContext} from 'sentry-docs/serverContext';
-import {capitilize} from 'sentry-docs/utils';
+  nodeForPath,
+} from 'src/docTree';
+import {getDocsFrontMatter, getFileBySlug} from 'src/mdx';
+import {mdxComponents} from 'src/mdxComponents';
+import {setServerContext} from 'src/serverContext';
+import {capitilize} from 'src/utils';
 
 export async function generateStaticParams() {
   const docs = await getDocsFrontMatter();

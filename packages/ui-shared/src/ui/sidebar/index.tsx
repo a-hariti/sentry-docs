@@ -9,8 +9,8 @@ import {
   getGuide,
   getPlatform,
   nodeForPath,
-} from 'src/docTree';
-import {FrontMatter, Platform} from 'src/types';
+} from 'sdk-docs/src/docTree';
+import {FrontMatter, Platform} from 'sdk-docs/src/types';
 
 import styles from './style.module.scss';
 

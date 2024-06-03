@@ -1,4 +1,4 @@
-import awsLambdaRegistry from 'src/build/awsLambdaLayerRegistry';
+import awsLambdaRegistry from 'sdk-docs/src/build/awsLambdaLayerRegistry';
 
 import {LambdaLayerDetailClient} from './lambdaLayerDetailClient';
 

@@ -1,7 +1,7 @@
 import path from 'path';
 
 import Image from 'next/image';
-import {serverContext} from 'src/serverContext';
+import {serverContext} from 'sdk-docs/src/serverContext';
 
 export default function DocImage({
   src,

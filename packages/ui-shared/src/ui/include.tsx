@@ -1,7 +1,7 @@
 import {useMemo} from 'react';
 import {getMDXComponent} from 'mdx-bundler/client';
-import {getFileBySlug} from 'src/mdx';
-import {mdxComponents} from 'src/mdxComponents';
+import {getFileBySlug} from 'sdk-docs/src/mdx';
+import {mdxComponents} from 'sdk-docs/src/mdxComponents';
 
 import {PlatformContent} from './platformContent';
 

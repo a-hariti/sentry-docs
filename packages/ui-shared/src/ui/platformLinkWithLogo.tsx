@@ -1,5 +1,5 @@
-import {getPlatform} from 'src/docTree';
-import {serverContext} from 'src/serverContext';
+import {getPlatform} from 'sdk-docs/src/docTree';
+import {serverContext} from 'sdk-docs/src/serverContext';
 
 import {PlatformIcon} from './platformIcon';
 import {SmartLink} from './smartLink';

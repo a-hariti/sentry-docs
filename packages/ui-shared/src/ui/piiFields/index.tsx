@@ -1,4 +1,4 @@
-import fields from 'src/data/relay_event_pii.json';
+import fields from 'sdk-docs/src/data/relay_event_pii.json';
 
 import styles from './style.module.scss';
 

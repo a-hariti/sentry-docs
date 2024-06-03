@@ -1,7 +1,7 @@
 import rehypeStringify from 'rehype-stringify';
 import remarkParse from 'remark-parse';
 import remarkRehype from 'remark-rehype';
-import {type APICategory} from 'src/build/resolveOpenAPI';
+import {type APICategory} from 'sdk-docs/src/build/resolveOpenAPI';
 import {unified} from 'unified';
 
 import {DocPage} from './docPage';

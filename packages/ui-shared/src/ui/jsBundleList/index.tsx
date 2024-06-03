@@ -1,4 +1,4 @@
-import getPackageRegistry from 'src/build/packageRegistry';
+import getPackageRegistry from 'sdk-docs/src/build/packageRegistry';
 
 import styles from './styles.module.scss';
 

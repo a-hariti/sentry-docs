@@ -1,5 +1,5 @@
-import {extractPlatforms} from 'src/docTree';
-import {serverContext} from 'src/serverContext';
+import {extractPlatforms} from 'sdk-docs/src/docTree';
+import {serverContext} from 'sdk-docs/src/serverContext';
 
 import styles from './styles.module.scss';
 

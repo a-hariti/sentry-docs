@@ -1,4 +1,4 @@
-import getAppRegistry from 'src/build/appRegistry';
+import getAppRegistry from 'sdk-docs/src/build/appRegistry';
 
 import styles from './styles.module.scss';
 

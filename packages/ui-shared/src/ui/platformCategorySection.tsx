@@ -1,6 +1,6 @@
-import {getCurrentPlatformOrGuide} from 'src/docTree';
-import {serverContext} from 'src/serverContext';
-import {Platform, PlatformGuide} from 'src/types';
+import {getCurrentPlatformOrGuide} from 'sdk-docs/src/docTree';
+import {serverContext} from 'sdk-docs/src/serverContext';
+import {Platform, PlatformGuide} from 'sdk-docs/src/types';
 
 type Props = {
   children?: React.ReactNode;

@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import {extractPlatforms, getDocsRootNode} from 'src/docTree';
-import ChatBubble from 'src/imgs/chat-bubble.png';
-import HeroImage from 'src/imgs/home_illustration.png';
-import RocketImage from 'src/imgs/rocket.png';
-import SupportImage from 'src/imgs/support.png';
+import {extractPlatforms, getDocsRootNode} from 'sdk-docs/src/docTree';
+import ChatBubble from 'sdk-docs/src/imgs/chat-bubble.png';
+import HeroImage from 'sdk-docs/src/imgs/home_illustration.png';
+import RocketImage from 'sdk-docs/src/imgs/rocket.png';
+import SupportImage from 'sdk-docs/src/imgs/support.png';
 
 import {Banner} from './banner';
 import {Header} from './header';

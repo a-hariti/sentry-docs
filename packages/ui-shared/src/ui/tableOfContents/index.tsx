@@ -2,7 +2,7 @@
 
 import {ReactNode, useEffect, useState} from 'react';
 import {useRouter} from 'next/navigation';
-import {isTruthy} from 'src/utils';
+import {isTruthy} from 'sdk-docs/src/utils';
 
 import styles from './style.module.scss';
 

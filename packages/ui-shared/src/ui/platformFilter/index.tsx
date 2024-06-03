@@ -5,8 +5,8 @@ import {TriangleRightIcon} from '@radix-ui/react-icons';
 import classNames from 'classnames';
 import {matchSorter} from 'match-sorter';
 import Link from 'next/link';
-import {type Platform} from 'src/types';
-import {splitToChunks, uniqByReference} from 'src/utils';
+import {type Platform} from 'sdk-docs/src/types';
+import {splitToChunks, uniqByReference} from 'sdk-docs/src/utils';
 
 import styles from './style.module.scss';
 

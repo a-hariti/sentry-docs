@@ -1,6 +1,6 @@
 import {HamburgerMenuIcon} from '@radix-ui/react-icons';
 import Image from 'next/image';
-import SentryLogoSVG from 'src/logos/sentry-logo-dark.svg';
+import SentryLogoSVG from 'sdk-docs/src/logos/sentry-logo-dark.svg';
 
 import sidebarStyles from './sidebar/style.module.scss';
 

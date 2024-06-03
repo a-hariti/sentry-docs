@@ -10,9 +10,9 @@ import {
 import DOMPurify from 'dompurify';
 import Link from 'next/link';
 import {useRouter} from 'next/navigation';
+import {useOnClickOutside} from 'sdk-docs/src/clientUtils';
+import {useKeyboardNavigate} from 'sdk-docs/src/hooks/useKeyboardNavigate';
 import algoliaInsights from 'search-insights';
-import {useOnClickOutside} from 'src/clientUtils';
-import {useKeyboardNavigate} from 'src/hooks/useKeyboardNavigate';
 
 import styles from './search.module.scss';
 

@@ -1,45 +1,35 @@
-import {Alert, Note} from './ui/alert';
-import {Break} from './ui/break';
-import {CliChecksumTable} from './ui/cliChecksumTable';
-import {CodeBlock} from './ui/codeBlock';
-import {CodeTabs} from './ui/codeTabs';
-import {ConfigKey} from './ui/configKey';
-import {DefinitionList} from './ui/definitionList';
-import DocImage from './ui/docImage';
-import {Expandable} from './ui/expandable';
-import {GuideGrid} from './ui/guideGrid';
-import {JsBundleList} from './ui/jsBundleList';
-import {LambdaLayerDetail} from './ui/lambdaLayerDetail';
-import {LinkWithPlatformIcon} from './ui/linkWithPlatformIcon';
-import {OnboardingOption, OnboardingOptionButtons} from './ui/onboarding';
-import {OrgAuthTokenNote} from './ui/orgAuthTokenNote';
-import {PageGrid} from './ui/pageGrid';
-import {ParamTable} from './ui/paramTable';
-import {PiiFields} from './ui/piiFields';
-import {PlatformCategorySection} from './ui/platformCategorySection';
-import {PlatformGrid} from './ui/platformGrid';
-import {PlatformIdentifier} from './ui/platformIdentifier';
-import {PlatformLink} from './ui/platformLink';
-import {PlatformLinkWithLogo} from './ui/platformLinkWithLogo';
-import {PlatformOrGuideName} from './ui/platformOrGuideName';
-import {PlatformSdkPackageName} from './ui/platformSdkPackageName';
-import {PlatformSection} from './ui/platformSection';
-import {RelayMetrics} from './ui/relayMetrics';
-import {SandboxLink} from './ui/sandboxLink';
-import {SignInNote} from './ui/signInNote';
-import {SmartLink} from './ui/smartLink';
-import {VimeoEmbed} from './ui/video';
+export {Alert, Note} from './ui/alert';
+export {Break} from './ui/break';
+export {CliChecksumTable} from './ui/cliChecksumTable';
+export {CodeBlock} from './ui/codeBlock';
+export {CodeTabs} from './ui/codeTabs';
+export {ConfigKey} from './ui/configKey';
+export {DefinitionList} from './ui/definitionList';
+export { default as DocImage} from './ui/docImage';
+export {Expandable} from './ui/expandable';
+export {GuideGrid} from './ui/guideGrid';
+export {JsBundleList} from './ui/jsBundleList';
+export {LambdaLayerDetail} from './ui/lambdaLayerDetail';
+export {LinkWithPlatformIcon} from './ui/linkWithPlatformIcon';
+export {OnboardingOption, OnboardingOptionButtons} from './ui/onboarding';
+export {OrgAuthTokenNote} from './ui/orgAuthTokenNote';
+export {PageGrid} from './ui/pageGrid';
+export {ParamTable} from './ui/paramTable';
+export {PiiFields} from './ui/piiFields';
+export {PlatformCategorySection} from './ui/platformCategorySection';
+export {PlatformGrid} from './ui/platformGrid';
+export {PlatformIdentifier} from './ui/platformIdentifier';
+export {PlatformLink} from './ui/platformLink';
+export {PlatformLinkWithLogo} from './ui/platformLinkWithLogo';
+export {PlatformOrGuideName} from './ui/platformOrGuideName';
+export {PlatformSdkPackageName} from './ui/platformSdkPackageName';
+export {PlatformSection} from './ui/platformSection';
+export {RelayMetrics} from './ui/relayMetrics';
+export {SandboxLink} from './ui/sandboxLink';
+export {SignInNote} from './ui/signInNote';
+export {SmartLink} from './ui/smartLink';
+export {VimeoEmbed} from './ui/video';
 
-export {
-  getCurrentPlatformOrGuide,
-  getDocsRootNode,
-  nodeForPath,
-  extractPlatforms,
-} from './docTree';
-export {getDocsFrontMatter, getFileBySlug} from './mdx';
-export {setServerContext} from './serverContext';
-export {capitilize} from './utils';
-export {apiCategories} from './build/resolveOpenAPI';
 export {ApiCategoryPage} from './ui/apiCategoryPage';
 export {Home} from './ui/home';
 export {Include} from './ui/include';
@@ -51,47 +41,4 @@ export {PlatformFilter} from './ui/platformFilter';
 export {NavLink, type NavLinkProps} from './ui/navlink';
 export {Banner} from './ui/banner';
 export {SentryWordmarkLogo} from './ui/wordmarkLogo';
-
-export function mdxComponents(
-  dynamicComponents: any = {},
-  wrapper: any = ({children}: any) => children
-) {
-  return {
-    Alert,
-    Break,
-    CliChecksumTable,
-    CodeBlock,
-    CodeTabs,
-    ConfigKey,
-    DefinitionList,
-    Expandable,
-    GuideGrid,
-    JsBundleList,
-    LambdaLayerDetail,
-    Link: SmartLink,
-    LinkWithPlatformIcon,
-    Note,
-    OrgAuthTokenNote,
-    PageGrid,
-    ParamTable,
-    PiiFields,
-    PlatformGrid,
-    PlatformIdentifier,
-    PlatformLink,
-    PlatformLinkWithLogo,
-    PlatformSection,
-    PlatformCategorySection,
-    PlatformOrGuideName,
-    PlatformSdkPackageName,
-    OnboardingOption,
-    OnboardingOptionButtons,
-    RelayMetrics,
-    SandboxLink,
-    SignInNote,
-    VimeoEmbed,
-    a: SmartLink,
-    img: DocImage,
-    ...dynamicComponents,
-    wrapper,
-  };
-}
+export {Header} from './ui/header';

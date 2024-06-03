@@ -1,10 +1,8 @@
 'use client';
 
 import {Button} from '@radix-ui/themes';
+import {Header, Search} from '@sentry/ui-shared';
 import {usePathname} from 'next/navigation';
-
-import {Header} from 'sentry-docs/components/header';
-import {Search} from 'sentry-docs/components/search';
 
 export default function NotFound() {
   const pathname = usePathname() ?? '/';

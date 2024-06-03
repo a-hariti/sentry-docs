@@ -12,7 +12,7 @@ import {ArrowDown} from 'react-feather';
 import {usePopper} from 'react-popper';
 import styled from '@emotion/styled';
 import {AnimatePresence, motion, MotionProps} from 'framer-motion';
-import {useOnClickOutside} from 'src/clientUtils';
+import {useOnClickOutside} from 'sdk-docs/src/clientUtils';
 
 import {CodeContext, createOrgAuthToken} from './codeContext';
 
@@ -59,7 +59,7 @@ function makeProjectKeywordsClickable(arr: ChildrenItem[], str: string) {
       key={`project-keyword-${lastIndex}`}
       index={lastIndex}
       group={match[1] || 'PROJECT'}
-      keyword={match[2]}
+      keyword={match[2]!}
     />
   ));
 }

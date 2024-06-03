@@ -1,6 +1,6 @@
-import {getCurrentPlatformOrGuide, getPlatform} from 'src/docTree';
-import {serverContext} from 'src/serverContext';
-import {PlatformCaseStyle} from 'src/types';
+import {getCurrentPlatformOrGuide, getPlatform} from 'sdk-docs/src/docTree';
+import {serverContext} from 'sdk-docs/src/serverContext';
+import {PlatformCaseStyle} from 'sdk-docs/src/types';
 
 type Props = {
   name: string;

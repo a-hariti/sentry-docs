@@ -1,6 +1,6 @@
 import {Fragment} from 'react';
 import {micromark} from 'micromark';
-import metrics from 'src/data/relay_metrics.json';
+import metrics from 'sdk-docs/src/data/relay_metrics.json';
 
 import styles from './styles.module.scss';
 
